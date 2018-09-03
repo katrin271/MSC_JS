@@ -11,7 +11,7 @@ console.log(Mama.className);
 Mama.innerHTML = YourName;
 const myimg = prompt("Введите адрес картинки");
 const imageBlock=document.querySelector("img");
-imageBlock.setAttribute("src", "myimg");
+imageBlock.setAttribute("src", myimg);
 const text=prompt("Введите техт страницы");
 const Papa=document.querySelector(".shortBio");
 console.log(Papa.className);
